@@ -9,8 +9,6 @@ struct grafo {
     Vertice *listaAdj;
 };
 
-//Um comentario apenas
-
 struct vertice {
     int v;
     Vertice prox;
