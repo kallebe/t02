@@ -9,7 +9,7 @@ struct grafo {
     Vertice *listaAdj;
 };
 
-//Um comentário aqui!
+//Um comentario apenas
 
 struct vertice {
     int v;
