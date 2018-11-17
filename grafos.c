@@ -3,8 +3,6 @@
 #include "grafos.h"
 
 void criarGrafo(Grafo *G, int nVertices) {
-    int i;
-
     G->nVertices = nVertices;
     G->listaAdj = calloc(nVertices, sizeof(*G->listaAdj));
 }
