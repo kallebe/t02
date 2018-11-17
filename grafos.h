@@ -1,6 +1,8 @@
 #ifndef GRAFOS_H
 #define GRAFOS_H
 
+#define VERBOSE 1
+
 typedef struct vertice *Vertice;
 typedef struct grafo Grafo;
 

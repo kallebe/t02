@@ -13,7 +13,7 @@ void inserirAresta(Grafo *G, int v1, int v2) {
     Vertice aux;
 
     if(v1 >= G->nVertices || v2 >= G->nVertices) {
-        printf("Vertice alem do limite\n");
+        if(VERBOSE) printf("Vertice alem do limite\n");
         return;
     }
 
